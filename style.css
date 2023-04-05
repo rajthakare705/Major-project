@@ -1,0 +1,226 @@
+*{
+    padding: 0px;
+    margin:1px;
+    /*background-color: #d6d3d3;*/ 
+}
+.clg img{
+    width: 100%;
+    height:550px; 
+}
+.clg-text h1{
+    text-align:center;
+    color: white;
+    position:absolute;
+    top: 25%;
+    left:34%;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color:white;
+    color:white;
+    font-weight: bolder;
+    background-color: black;
+}
+section h1{
+    /* background-color:#FFFF33; */
+    
+    text-align:center;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: bold;
+}
+#course1{
+    float:right;
+    padding-right :280px;
+    
+}
+#course1 img{
+    height: 120%;
+    width: 140%;
+    border-radius: 10px;
+}
+.btn{
+    text-align:center;
+    padding-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#course2{
+    float:left;
+    padding-left: 150px;
+    
+}
+#course2 img{
+    height: 120%;
+    width: 140%;
+    border-radius: 10px;
+    border-color: black;
+    border: 3px;
+}
+.btn1{
+    text-align:center;
+    padding-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+	clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+	overflow: hidden;
+    background-color:#827d7d;
+  }
+  
+  footer a {
+	text-decoration: none;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	color:black;
+    margin: 0px;
+    width:100%;
+    height:45px;   /* Height of the footer */
+   background-color: rgba(0,0,0,0);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  transform: translate(-50%, -50%);
+  background: #1b1b1b;
+  width: 50px;
+  line-height: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  margin: 0px;
+}
+nav label{
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  display: block;
+  cursor: pointer;
+  line-height: 40px;
+  margin: 0px;
+  
+}
+.button span{
+  float: right;
+  line-height: 40px;
+  transition: 0.5s;
+  margin: 0px;
+  
+}
+.button span.rotate{
+  transform: rotate(-180deg);
+}
+nav ul{
+  position: absolute;
+  /*background: #1b1b1b;*/
+  list-style: none;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  display: none; 
+  margin: 0px;
+  text-decoration-color:red;
+}
+
+label.first, .atfirst {
+  /*background-color:#1b1b1b;*/
+  width: 150px;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 0px;
+  text-decoration-color:red;
+}
+
+[id^=btn]:checked + ul{
+  display: block;
+}
+nav .menu:before{
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+ /* background: #1b1b1b;*/
+  right: 20px;
+  top: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+  margin: 0px;
+  text-decoration-color:red;
+}
+nav ul li{
+  line-height: 30px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  width: 193px;
+  margin: 0px;
+  
+}
+nav ul li label{
+  font-size: 18px;
+  margin: 0px;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  margin: 0px;
+  
+}
+nav ul li a:hover,
+nav ul li label:hover{
+color: cyan;
+
+}
+nav ul ul{
+  position: static;
+}
+nav ul ul li{
+  line-height: 30px;
+  padding-left: 30px;
+  border-bottom: none;
+  margin: 0px;
+ 
+}
+nav ul ul li a{
+  color: #e6e6e6;
+  font-size: 17px;
+  margin: 0px;
+ 
+
+}
+nav ul li span{
+  font-size: 20px;
+  float: right;
+  margin-top: 10px;
+  padding: 0px 10px;
+  transition: 0.5s;
+}
+nav ul li span.rotate{
+  transform: rotate(-180deg);
+}
+input{
+  margin: 0px;
+  display: none;
+}
